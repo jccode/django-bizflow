@@ -1,4 +1,4 @@
 *.pyc
 /*env*/
-docs/build
+docs/_build
 *.sqlite
