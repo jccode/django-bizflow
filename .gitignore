@@ -1,0 +1,4 @@
+*.pyc
+/*env*/
+docs/build
+*.sqlite
