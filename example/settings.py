@@ -131,6 +131,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 
     'django_bizflow', 
+    'example_app', 
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
