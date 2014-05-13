@@ -1,0 +1,43 @@
+# Message file for Chinese
+# Copyright (C) 2014 jcchen
+# This file is distributed under the same license as the PACKAGE package.
+# jcchen <junchangchen@gmail.com>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-14 02:36+0800\n"
+"PO-Revision-Date: 2014-05-14 02:37+0800\n"
+"Last-Translator: junchang.chen <junchang.chen@hgst.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: models.py:13
+msgid "Proposer"
+msgstr "请假人"
+
+#: models.py:14
+msgid "Reason"
+msgstr "请假原因"
+
+#: models.py:15
+msgid "Leave start time"
+msgstr "请假开始时间"
+
+#: models.py:16
+msgid "Leave end time"
+msgstr "请假结束时间"
+
+#: models.py:17
+msgid "Is agreed"
+msgstr "是否同意"
+
+#: models.py:20
+msgid "Leave Application"
+msgstr "请假单"
