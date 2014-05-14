@@ -2,9 +2,10 @@
 
 from django.contrib import admin
 from example_app.models import LeaveApplication
+from fsm_admin.mixins import FSMTransitionMixin
 
 
-class LeaveApplicationAdmin(admin.ModelAdmin):
+class LeaveApplicationAdmin(FSMTransitionMixin, admin.ModelAdmin):
     # exclude = ['is_agree', ]
     # readonly_fields = ('proposer', )
     list_display = ('proposer', 'reason', 'start_time', 'end_time')
@@ -23,7 +24,7 @@ class LeaveApplicationAdmin(admin.ModelAdmin):
 
 
     def get_form(self, request, obj=None, **kwargs):
-        self.exclude = ['is_agree', ]
+        self.exclude = ['is_agree', 'state', ]
         self.readonly_fields = ()
         if not obj:             # add view
             self.exclude.append('proposer')
